@@ -135,13 +135,13 @@ body {
         
     }
     .bottom-circle {
-        bottom: -550px;
-        right: -400px;
+        bottom: -1050px;
+        right: -800px;
     }
     .targeta{
         position: relative;
-        top: 70vh;
-        left: 15vh;
+        top: 60vh;
+        left: 25vh;
         width: 400px;
         height: 450px;
         margin-left: auto;
