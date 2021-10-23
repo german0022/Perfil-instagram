@@ -152,6 +152,8 @@ body {
     
     .cabeza {
         position: relative;
+        display: flex;
+        justify-content: center;
         height: 120px;
         text-align: center;
     }
@@ -161,14 +163,15 @@ body {
         left: 0;
         width: 100%;
         
+        
     }
     .logo{
         position: absolute;
         top: 90px;
-        left: 150px;
         border-radius: 50%;
         border: 5px solid #fff;
         background-color: #fff;
+        
     
     }
     
