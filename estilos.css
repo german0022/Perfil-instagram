@@ -115,10 +115,7 @@ body {
 
 /**movil**/
 @media (max-width: 767px){
-    *{
-        width: auto;
-        height: auto;
-    }
+    
     
     body {
         background-color: hsl(185, 75%, 39%);
@@ -143,7 +140,8 @@ body {
     }
     .targeta{
         position: relative;
-        top: 20vh;
+        top: 50vh;
+        left: 35vh;
         width: 400px;
         height: 450px;
         margin-left: auto;
