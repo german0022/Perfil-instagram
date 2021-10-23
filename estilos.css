@@ -147,6 +147,7 @@ body {
         background-color: #fff;
         border-radius: 20px;
         overflow: hidden;
+        max-width: 90%;
     }
     
     .cabeza {
