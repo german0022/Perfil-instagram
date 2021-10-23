@@ -4,9 +4,75 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Intento WEB</title>
+    
+    <link rel="stylesheet" href="estilos.css">
+    <script src="main.js"></script>
+    <title>Practica Dalto CSS</title>
+    <script src="https://kit.fontawesome.com/0446f90604.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <p>Hola Canario, Que Tal?</p>
+    <img src="imagenes/top-circle.svg" alt="top-circle" class="bg-image top-circle">
+    <img src="imagenes/bottom-circle.svg" alt="bottom-circle" class="bg-image bottom-circle">
+        
+        
+        <div class="targeta">
+            <div class="cabeza">
+                <img src="imagenes/carta-azul.svg" classalt="carta-azul" class="cabezal">
+                <img src="imagenes/victor.jpg" alt="imagen-victor" class="logo">
+                
+            </div>
+            <div class="cuerpo">
+                
+                <i id="button-follow" class="far fa-heart"></i>
+                <i id="button-like" class="far fa-thumbs-up"></i>
+
+                <script>
+                    let follow = document.getElementById("button-follow");
+                    let like = document.getElementById("button-like");
+                    var nfollowers = document.getElementById("n-followers");
+                    var nlikes = document.getElementById("n-likes");
+
+                    follow.onclick = muestraAlertaFollow;
+                    function muestraAlertaFollow(evento) {
+                        nfollowers = nfollowers +1;
+                        document.getElementById("n-followers").innerHTML = nfollowers;
+                    }
+
+                    like.onclick = muestraAlertaLike;
+                    function muestraAlertaLike(evento) {
+                        nlikes = nlikes +1;
+                        document.getElementById("n-likes").innerHTML = nlikes;
+                    }
+                </script>
+
+                
+                
+                <h1>Victor Crest</h1>
+                <p>London</p>
+            </div>
+            <div class="descripcion">
+                <div class="stats">
+                    <h2 id="n-followers">0</h2>
+                    <p>Followers</p>
+                </div>
+                   
+                <div class="stats">
+                    <h2 id="n-likes">0</h2>
+                    <p>Likes</p>
+                </div>
+                
+                <div class="stats">
+                    <h2>23</h2>
+                    <p>Photos</p>
+                </div>
+                    
+                
+                    
+
+                    
+            </div>
+
+        </div>
+        
 </body>
 </html>
