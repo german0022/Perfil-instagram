@@ -115,6 +115,11 @@ body {
 
 /**movil**/
 @media (max-width: 767px){
+    *{
+        width: auto;
+        height: auto;
+    }
+    
     body {
         background-color: hsl(185, 75%, 39%);
         font-family: sans-serif;
