@@ -146,13 +146,12 @@ body {
         
     }
     .logo{
-        position: absolute;
-        top: 55px;
-        
+        position: relative;
+        left: 0px;
+        top: 60px;
         border-radius: 50%;
         border: 5px solid #fff;
         background-color: #fff;
-        display: inline-block;
     
     }
     
@@ -162,10 +161,11 @@ body {
         height: 100px;
         text-align: center;
         border-bottom: 2px solid rgb(0 0 0 / .1);
+        
     }
     .fa-heart{
         position: absolute;
-        margin: -50px -80px;
+        margin: -50px -90px;
         font-size: 1.5rem;
         cursor: pointer;
         color: hsl(185, 75%, 39%);
