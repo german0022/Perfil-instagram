@@ -165,7 +165,7 @@ body {
     }
     .fa-heart{
         position: absolute;
-        margin: -50px -90px;
+        margin: -40px -90px;
         font-size: 1.5rem;
         cursor: pointer;
         color: hsl(185, 75%, 39%);
@@ -183,7 +183,7 @@ body {
     
     .fa-thumbs-up{
         position: absolute;
-        margin: -53px 63px;
+        margin: -43px 63px;
         font-size: 1.5rem;
         cursor: pointer;
         color: hsl(185, 75%, 39%);
@@ -200,7 +200,7 @@ body {
     
     .cuerpo h1{
         font-size: 1.5rem;
-        margin-top: -5px;
+        margin-top: 10px;
     }
     .descripcion{
         position: absolute;
