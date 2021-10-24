@@ -37,12 +37,13 @@ body {
 }
 .logo{
     position: absolute;
-    top: 90px;
+    top: 80px;
     left: 150px;
     border-radius: 50%;
     border: 5px solid #fff;
     background-color: #fff;
-
+    width: 100px;
+    height: 100px;
 }
 
 .cuerpo{
@@ -152,7 +153,7 @@ body {
         border-radius: 50%;
         border: 5px solid #fff;
         background-color: #fff;
-    
+        
     }
     
     .cuerpo{
